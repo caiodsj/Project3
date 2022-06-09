@@ -1,0 +1,134 @@
+*{margin:0;
+box-sizing: border-box;}
+
+header{
+    background: #290742;
+    border-bottom: solid #4fff4b 5px;
+    width: auto;
+    height: 588px;
+}
+a{text-decoration: none;
+    color: white;
+}
+.vejamais{
+    color: #9e6dc2;
+
+}
+input{
+    background: #170027;
+    border: none;
+    width: 200px;
+}
+input::placeholder{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10%;
+}
+button{
+    background: #9e6dc2;
+    width: 70px;
+    height: 44px;
+    border: none;
+}
+.menu{
+    display: flex;
+    align-items: center ;
+    height: 150px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.box1{
+    display: flex;
+    flex: 1;
+    padding-left: 7%;
+}
+.box2{
+    display: flex;
+    gap: 50px;
+    flex: 1;
+    justify-content: center;
+}
+.box3{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 7%;
+    height: 44px;
+}
+
+.introduction{
+    display: flex;
+}
+.textintro{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3% 0 7%;
+    font-size: 20px;
+
+}
+
+.imgintro{
+    display: flex;
+    padding-right: 7%;
+
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: #9e6dc2;
+}
+.headerP{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.vejamais{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+/* ------------- MAIN ---------------- 
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+main{
+    background: #f8f3fc;
+    height: auto;
+}
+.container1{
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+
+}
+.box_box1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 7%;
+}
+.box_box2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 7%;    
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #290742;
+    font-size: bold;
+}
+.mainP{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+figcaption{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.container2{
+    display: flex;
+    gap: 30px;
+    padding: 50px 7%;
+}
